@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_NetFramework", "WebApplication_NetFramework\WebApplication_NetFramework.csproj", "{90D478C8-062D-49DD-9153-B14D4ADA1A6B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C9180BF-EFBB-439B-AC1C-D345F4FB9CA2} = {8C9180BF-EFBB-439B-AC1C-D345F4FB9CA2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_NetCore", "WebApplication_NetCore\WebApplication_NetCore.csproj", "{8C9180BF-EFBB-439B-AC1C-D345F4FB9CA2}"
 EndProject
